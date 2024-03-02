@@ -1,7 +1,7 @@
 
 <h1>This is the twitter UI clone</h1>
 <section>
-        <h1 style="color:red">Sidebar Navigation</h1>
+        <h1>Sidebar Navigation</h1>
         <p>
             The sidebar contains navigation links like Home, Explore, Notifications, etc. Each navigation item has icons and text labels.
         </p>
