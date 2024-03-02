@@ -1,28 +1,7 @@
-<style>
-body {
-            font-family: Arial, sans-serif;
-            background-color: #121212;
-            color: #ffffff;
-            margin: 0;
-            padding: 0;
-        }
-        h1 {
-            color: #1da1f2;
-            font-size: 24px;
-            margin-top: 20px;
-        }
-        h2 {
-            color: #1da1f2;
-            font-size: 20px;
-            margin-top: 15px;
-        }
-        p {
-            margin-bottom: 15px;
-        }
-    </style>
+
 <h1>This is the twitter UI clone</h1>
 <section>
-        <h1>Sidebar Navigation</h1>
+        <h1 style="color:red">Sidebar Navigation</h1>
         <p>
             The sidebar contains navigation links like Home, Explore, Notifications, etc. Each navigation item has icons and text labels.
         </p>
