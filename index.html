@@ -1,0 +1,291 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="shortcut icon" href="//abs.twimg.com/favicons/twitter.3.ico">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        ::-webkit-scrollbar {
+            width: 5px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+        }
+        footer{ 
+  background-color: rgb(8, 20, 17);
+  color: rgb(150, 150, 150);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px 0;
+  flex-wrap: wrap;
+}
+footer div{
+  text-align: center;
+
+}
+code{
+  color: white; 
+  cursor: pointer;
+}
+    </style>
+</head>
+
+<body class="bg-black text-white">
+    <div id="main" class="flex container max-h-screen mx-auto py-5 pb-0">
+        <div class="first w-20 md:w-4/12  max-h-svh overflow-y-auto">
+            <div class="logo">
+
+                <svg viewBox="0 0 1200 1227" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="none"
+                    class="u01b__icon-home w-8 invert">
+                    <path
+                        d="M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z">
+                    </path>
+                </svg>
+            </div>
+            <div class="sidebar flex flex-col content-between justify-between  h-full">
+                <ul class="flex flex-col mt-5">
+                    <li
+                        class="flex align-middle gap-2 px-3 py-2 hover:bg-slate-900 active:bg-slate-950  hover:rounded-md cursor-pointer">
+                        <span class="material-symbols-outlined">Home</span> <span class="hidden md:block"> Home </span>
+                    </li>
+                    <li
+                        class="flex align-middle gap-2 px-3 py-2 hover:bg-slate-900 active:bg-slate-950  hover:rounded-md cursor-pointer">
+                        <span class="material-symbols-outlined">Explore</span> <span class="hidden md:block"> Explore
+                        </span>
+                    </li>
+                    <li
+                        class="flex align-middle gap-2 px-3 py-2 hover:bg-slate-900 active:bg-slate-950  hover:rounded-md cursor-pointer">
+                        <span class="material-symbols-outlined">Notifications</span> <span class="hidden md:block">
+                            Notifications </span>
+                    </li>
+                    <li
+                        class="flex align-middle gap-2 px-3 py-2 hover:bg-slate-900 active:bg-slate-950  hover:rounded-md cursor-pointer">
+                        <span class="material-symbols-outlined">Message</span> <span class="hidden md:block"> Messages
+                        </span>
+                    </li>
+                    <li
+                        class="flex align-middle gap-2 px-3 py-2 hover:bg-slate-900 active:bg-slate-950  hover:rounded-md cursor-pointer">
+                        <span class="material-symbols-outlined">Bookmarks</span> <span class="hidden md:block">
+                            Bookmarks </span>
+                    </li>
+                    <li
+                        class="flex align-middle gap-2 px-3 py-2 hover:bg-slate-900 active:bg-slate-950  hover:rounded-md cursor-pointer">
+                        <span class="material-symbols-outlined">Lists</span> <span class="hidden md:block"> Lists
+                        </span>
+                    </li>
+                    <li
+                        class="flex align-middle gap-2 px-3 py-2 hover:bg-slate-900 active:bg-slate-950  hover:rounded-md cursor-pointer">
+                        <span class="material-symbols-outlined">Person</span> <span class="hidden md:block"> Profile
+                        </span>
+                    </li>
+                    <li
+                        class="flex align-middle gap-2 px-3 py-2 hover:bg-slate-900 active:bg-slate-950  hover:rounded-md cursor-pointer">
+                        <span class="material-symbols-outlined">More</span> <span class="hidden md:block"> More </span>
+                    </li>
+                    <li><button
+                            class="hover:bg-blue-800 rounded-full text-sm font-semibold p-2 px-3 mt-4 bg-blue-700 w-full"><span class="md:inline w-fit ">Post</span></button>
+                    </li>
+                </ul>
+                <div class="profile flex justify-center items-center gap-4">
+                    <img src="image/itcircle.png" class=" w-10 mb-4 rounded-full m-auto md:m-0">
+                    <div class=" hidden md:inline">
+                        <p>IT&nbsp;Circle</p>
+                        <p class="text-sm text-gray-700">@ITCircle05</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div class="second max-h-svh overflow-y-auto  border border-x-white border-y-black w-full ">
+            <div class="flex align-middle justify-between bg-black sticky top-0">
+                <div class="for-u text-lg w-1/2 text-center">
+                    <p class="border-b-2 inline p-2 cursor-pointer">For You</p>
+                </div>
+                <div class="following text-lg w-1/2 text-center cursor-pointer">Following</div>
+                <div class="setting"><span class="material-symbols-outlined">Settings</span></div>
+            </div>
+            <div class="post flex w-full mt-5 p-3">
+                <div>
+                    <img src="image/itcircle.png" class="w-10 mb-4 rounded-full">
+                </div>
+
+                <div class="w-full m-3">
+                    <textarea class="w-full h-12 bg-gray-900 rounded-md text-white p-1 px-3"
+                        placeholder="what is happening?" type="text"></textarea>
+                    <p class="text-blue-400 flex items-center gap-1">
+                        <span class="material-symbols-outlined">globe_asia</span>Everyone can reply
+                    </p>
+                    <hr>
+                    <div class="flex justify-between items-center mt-4">
+                        <div class="flex text-blue-500 gap-3">
+                            <span class="material-symbols-outlined cursor-pointer">imagesmode</span>
+                            <span class="material-symbols-outlined cursor-pointer">gif</span>
+                            <span class="material-symbols-outlined cursor-pointer">picture_as_pdf</span>
+                            <span class="material-symbols-outlined cursor-pointer">radio_button_unchecked</span>
+                            <span class="material-symbols-outlined cursor-pointer">content_paste</span>
+                            <span class="material-symbols-outlined cursor-pointer">more</span>
+                        </div>
+                        <div
+                            class="send p-1 px-3  bg-blue-700 text-white rounded-full text-lg cursor-pointer hover:bg-blue-600 active:bg-blue-800">
+                            Post</div>
+                    </div>
+                </div>
+
+            </div>
+            <hr class="w-11/12 m-auto">
+            <p class="text-blue-400 m-3 text-center">
+                Show top posts
+            </p>
+
+
+            <div class="post flex w-full mt-3 p-3 gap-3">
+                <div>
+                    <img src="image/logo.png" class="w-10 mb-4 rounded-full">
+                </div>
+
+                <div class="w-full">
+                    <div class="flex items-center gap-5">
+
+                        <p class=" text-lg font-semibold">Bhavesh Gharat</p>
+                        <p class="text-gray-400 ">
+                            @Bhaveshgharat
+                        </p>
+                    </div>
+                    <p class="">This is twitter clone being created by me </p>
+                    <div class="flex justify-between mt-5 text-blue-300 gap-3">
+
+                        <div class="flex items-center"><span
+                                class="material-symbols-outlined cursor-pointer">Message</span>
+                            1.2k</div>
+                        <div class="flex items-center"><span
+                                class="material-symbols-outlined cursor-pointer">share</span>
+                            1.2k</div>
+                        <div class="flex items-center"><span
+                                class="material-symbols-outlined cursor-pointer">favorite</span>
+                            1.2k</div>
+                        <div class="flex items-center"><span
+                                class="material-symbols-outlined cursor-pointer">Contacts_product</span>
+                            1.2k</div> 
+                    </div>
+                </div>
+
+            </div>
+            <hr class="w-11/12 m-auto">
+            <div class="post flex w-full mt-3 p-3 gap-3">
+                <div>
+                    <img src="image/logo.png" class="w-10 mb-4 rounded-full">
+                </div>
+
+                <div class="w-full">
+                    <div class="flex items-center gap-5">
+
+                        <p class=" text-lg font-semibold">Bhavesh Gharat</p>
+                        <p class="text-gray-400 ">
+                            @Bhaveshgharat
+                        </p>
+                    </div>
+                    <img src="image/postimage.png" class="border rounded-lg">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic tempore, quod illo repellat nemo
+                        animi ducimus laborum ipsum alias fugiat!</p>
+                    <div class="flex justify-between mt-5 text-blue-300 gap-3">
+
+                        <div class="flex items-center"><span
+                                class="material-symbols-outlined cursor-pointer">Message</span>
+                            1.2k</div>
+                        <div class="flex items-center"><span
+                                class="material-symbols-outlined cursor-pointer">share</span>
+                            1.2k</div>
+                        <div class="flex items-center"><span
+                                class="material-symbols-outlined cursor-pointer">favorite</span>
+                            1.2k</div>
+                        <div class="flex items-center"><span
+                                class="material-symbols-outlined cursor-pointer">Contacts_product</span>
+                            1.2k</div> 
+                    </div>
+                </div>
+
+            </div>
+            <hr class="w-11/12 m-auto">
+        </div>
+
+
+
+        <div class="third w-full max-h-svh overflow-y-auto hidden md:block">
+            <div class="search">
+                <input type="text" class="w-4/5 md:w-1/2 h-3 m-3 rounded-full bg-gray-950 py-4 px-4" placeholder="Search">
+            </div>
+            <div class="whats m-3 bg-gray-950 w-4/5 md:w-1/2 rounded-xl">
+                <h1 class="text-xl font-bold p-3 pb-0">Whats happening</h1>
+                <div class="item hover:bg-gray-900 cursor-pointer p-5 py-3">
+                    <div class="font-bold text-sm text-gray-400">Trending in india</div>
+                    <div>Jagadish</div>
+                    <div>40.2k posts</div>
+                </div>
+                <div class="item hover:bg-gray-900 cursor-pointer p-5 py-3">
+                    <div class="font-bold text-sm text-gray-400">Trending in india</div>
+                    <div>Bhavesh</div>
+                    <div>40.2k posts</div>
+                </div>
+                <div class="item hover:bg-gray-900 cursor-pointer p-5 py-3">
+                    <div class="font-bold text-sm text-gray-400">Trending in india</div>
+                    <div>Orry</div>
+                    <div>40.2k posts</div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+            <div class="who m-3 mt-5 bg-gray-950 w-4/5 md:w-1/2 rounded-xl">
+                <h1 class="text-xl font-bold p-3 pb-0">Who to follow</h1>
+                <div class="flex justify-between align-middle p-2 flex-col md:flex-row">
+                    <div class="item"><img src="image/logo.png" class="h-10 rounded-full"></div>
+                    <div class="item">
+                        <p>Bhavesh Gharat</p>
+                        <p class="text-sm text-gray-500">@Bhaveshgharat</p>
+                    </div>
+                    <div class="item"><button
+                            class="hover:bg-gray-400 rounded-full text-sm font-semibold p-2 px-3 bg-white text-black">Explore</button>
+                    </div>
+                </div>
+                <div class="flex justify-between align-middle p-2 flex-col md:flex-row">
+                    <div class="item"><img src="image/itcircle.png" class="h-10 rounded-full"></div>
+                    <div class="item">
+                        <p>IT Circle</p>
+                        <p class="text-sm text-gray-500">@ITCircle05</p>
+                    </div>
+                    <div class="item"><button
+                            class="hover:bg-gray-400 rounded-full text-sm font-semibold p-2 px-3 bg-white text-black">Explore</button>
+                    </div>
+                </div>
+                <div class="text-blue-300 hover:text-blue-500 hover:underline inline-block w-auto cursor-pointer p-3">
+                    Show more...
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div>A project submitted by <code>Bhavesh</code></div>
+        <div><p>Designed by <code>IT Circle</code></p><p>Copyright &copy; 2024 all rights reserved</p></div>
+    </footer>
+</body>
+
+</html>
